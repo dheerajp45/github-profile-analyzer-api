@@ -285,6 +285,17 @@ See [`schema.sql`](./schema.sql) for the full schema.
 5. Set **Start Command:** `node src/index.js`
 6. Test `/health` on your live URL
 
+## Postman Collection
+
+A Postman collection containing all API endpoints is included in this repository.
+
+File:
+`github-profile-analyzer-api.postman_collection.json`
+
+[Download Postman Collection](./github-profile-analyzer-api.postman_collection.json)
+
+Import this file into Postman to test the API endpoints quickly.
+
 ## Author
 
 **Dheeraj Panyam**
