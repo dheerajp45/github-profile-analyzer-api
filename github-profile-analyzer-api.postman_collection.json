@@ -1,0 +1,125 @@
+{
+  "info": {
+    "_postman_id": "4d6d9194-7c9f-469d-819a-927ac7d6d9a3",
+    "name": "github-profile-analyzer-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49308928",
+    "_collection_link": "https://go.postman.co/collection/49308928-4d6d9194-7c9f-469d-819a-927ac7d6d9a3?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-api-production-b8e2.up.railway.app/health",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-api-production-b8e2",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Analyze Profile",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-api-production-b8e2.up.railway.app/api/profiles/dheerajp45/analyze",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-api-production-b8e2",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "dheerajp45",
+            "analyze"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-api-production-b8e2.up.railway.app/api/profiles",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-api-production-b8e2",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Single Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-api-production-b8e2.up.railway.app/api/profiles/dheerajp45",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-api-production-b8e2",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "dheerajp45"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Direct GitHub Fetch",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-api-production-b8e2.up.railway.app/api/github/profile/dheerajp45",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-api-production-b8e2",
+            "up",
+            "railway",
+            "app"
+          ],
+          "path": [
+            "api",
+            "github",
+            "profile",
+            "dheerajp45"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
