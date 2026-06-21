@@ -5,7 +5,7 @@ A REST API built with Node.js and Express that fetches public GitHub user profil
 ## Live Demo
 
 
-**Live API:** `https://your-app.onrender.com`
+**Live API:** `https://github-profile-analyzer-api-production-b8e2.up.railway.app/`
 
 ## Tech Stack
 
